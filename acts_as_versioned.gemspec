@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'keeguon-acts_as_versioned'
-  s.version           = '0.7.2'
-  s.date              = '2013-04-08'
+  s.version           = '0.7.3'
+  s.date              = '2014-09-01'
   s.rubyforge_project = 'acts_as_versioned'
 
   ## Make sure your summary is short. The description may be as long
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
 
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.
-  s.add_dependency('activerecord', ["~> 3.0"])
+  s.add_dependency('activerecord', [">= 3.1"])
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
